@@ -1,0 +1,18 @@
+header{
+	text-align: center;
+	color: #99FFFF;
+	background: #222222;
+}
+nav {
+	font-family: helvetica, arial, sans-serif;
+	text-align: center;
+	margin: 30px;
+}
+
+#slogan {
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	background-image: url(unit_3/images/marginalway.jpg);
+}
