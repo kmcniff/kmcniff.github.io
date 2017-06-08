@@ -1,18 +1,62 @@
-header{
-	text-align: center;
-	color: #99FFFF;
-	background: #222222;
+* {
+	padding: 0;
+	margin: 0;
 }
-nav {
+
+body {
 	font-family: helvetica, arial, sans-serif;
+	color: #323040;
+	background: #F4FDFF;
+}
+header{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 80%;
+	color: #323040;
 	text-align: center;
+	text-transform: uppercase;
+	background-size: 100%;
+	padding: 15px;
+}
+nav{
+	padding-top: 20px;
+}
+nav a{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: bold;
+	text-transform: none;
 	margin: 30px;
+	color: #2DCCBA;
+}
+
+main {
+	padding-top: 15px;
+	padding-left: 15px;
 }
 
 #slogan {
 	text-align: center;
+	color: #323040;
+	padding: 10%;
 	font-family: helvetica, arial, sans-serif;
-	font-size: 20px;
+	font-size: 110%;
 	font-style: italic;
-	background-image: url(unit_3/images/marginalway.jpg);
+	background-image: url('https://kmcniff.github.io/unit_3/images/marginalway.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
+
+p {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 15px;
+	padding: 5px;
+	line-height: 20px;
+}
+
+ol {
+	font-size: 15px;
+	color: #323040;
+	padding-top: 5px;
+	padding-left: 5%;
 }
