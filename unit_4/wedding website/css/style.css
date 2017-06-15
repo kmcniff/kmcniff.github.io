@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	color: #99AAA0;
+	background: #F7F7F7;
+	text-align: center;
+}
+
+main {
+	padding-top: 15px;
+	padding-left: 15px;
+	margin: 2em auto;
+	max-width: 30em;
+}
+
+p {
+	text-align: justify;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #2E2927;
+	margin-bottom: 1.25em
+}
+
+#heroimage{
+	max-width: 100%;
+}
+#logo{
+	margin: 2em;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Francois One', sans-serif;
+	color: #454C48;
+	text-align: center;
+}
+
+h2{
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 1em;
+	padding-bottom: .5em;
+}
+
+h3{
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-style: italic;
+	text-align: left;
+}
+header{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 80%;
+	color: #323040;
+	text-align: center;
+	background-size: 100%;
+	padding-top: 2em;
+}
+nav{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-transform: none;
+}
+nav a{
+	font-family: helvetica, arial, sans-serif;
+	font-size: 1.15em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 1em;
+	color: #F7CAC7;
+}
+
+
+ul {
+	text-align: left;
+	color: #2E2927;
+	padding-top: 5px;
+	padding-left: 5%;
+}
